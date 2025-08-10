@@ -1,0 +1,64 @@
+# =========================
+# Arquivos do Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# =========================
+# Ambiente virtual
+# =========================
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+
+# =========================
+# Configurações / credenciais
+# =========================
+*.env
+.env.local
+.env.*.local
+
+# =========================
+# Django / Flask
+# =========================
+*.log
+media/
+staticfiles/
+static/
+db.sqlite3
+*.pot
+*.mo
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints
+
+# =========================
+# VSCode / PyCharm
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# Sistema Operacional
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?

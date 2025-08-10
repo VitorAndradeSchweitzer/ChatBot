@@ -1,0 +1,25 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block body %}
+    <section>
+        <div class=" w-100 d-block" style="min-height: 550px; position: relative">
+            
+            <img class="w-100" style="max-height: 700px;" src="{% static 'global/css/images/wickedbackground.png' %}" alt="">
+           
+            <div class="" style="position: absolute; top:35%; left: 50%; transform: translate(-50%, -50%)">  
+                <div class="w-100 h-100 d-flex align-items-center justify-content-center flex-column" style="min-height: 550px">
+                    <h4 class="display-4 text-white"><b><span class="text-custom-secondary fs-1"> < </span>CHATBOT GEN&Eacute;RICO!<span class="text-custom-secondary fs-1"> > </span> </b><h4>
+                    <p class="fs-3 text-white">Não sei do que fazer ainda :) <p>
+                
+                    <div class="input-group mt-5">
+                        <input type="text" class="form-control input-custom" placeholder="Digite qualquer coisa...">
+                        <button class="btn btn-custom-primary" type="button">
+                            <i class="bi bi-search text-white"></i>
+                        </button>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
