@@ -1,76 +1,113 @@
 from django.shortcuts import render
-from django.http import JsonResponse
 from django.views.generic import TemplateView
 
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from rest_framework import status
-from langchain_groq import ChatGroq
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import JsonOutputParser
+from django.shortcuts import render, redirect, get_object_or_404
+
+from django.contrib import messages
+from django.contrib.auth import  login
+from django.contrib.auth.models import User
+from django.contrib.auth.decorators import login_required
+
 import json
 
-from decouple import config
-# Initialize Groq LLM
-llm = ChatGroq(
-    model_name="llama-3.3-70b-versatile",
-    temperature=0.7,
-     api_key=config('GROQ_API_KEY'),
-)
 
+from . import chatbot_utils
+from .forms import RegisterForm, LoginForm
+from .models import ConversationMemory, ChatMessage
 class Init(TemplateView):
     template_name = "pages/init.html"
     
     def get_context_data(self, **kwargs):
             context = super().get_context_data(**kwargs)
-            context["extra_info"] = "This is additional data."
             return context
-
-
-class APIendpointteste2(APIView):
-    def get(self, request):
-        return Response({"message": "Use POST to send input"})
+        
     def post(self, request):
-        user_input = request.POST.get("user_input", "Write a song about a crazy man")
-        # Define the expected JSON structure
-        parser = JsonOutputParser(pydantic_object={
-            "type": "object",
-            "properties": {
-                "song-title": {"type": "string"},
-                "lyrics": {"type": "string"},
-               
-            }
-        })
-
-        # Create a simple prompt
-        prompt = ChatPromptTemplate.from_messages([
-            ("system", """Create a Song about the theme givem by the user and return into JSON with this structure:
-                {{
-                    "song-title": "song title ",
-                    "lyrics": short-song-created,
-                    """),
-            ("user", "{input}")
-        ])
-
-
-        chain = prompt | llm | parser
-
-        def parse_product(description: str) -> dict:
-            result = chain.invoke({"input": description})
-            return result
-
+        context = self.get_context_data()
+        user_input = request.POST.get("user_input", "")
+        context['inicio'] = True
                 
-        # Example usage
-        description = f"""
-        {user_input}"""
+        if user_input:
+    
+            #response = chatbot_utils.chatbot_generate_response(user_input)
+            response = {}
+            context['response'] = response
+            context['user_input'] = user_input
+            context['number'] = [1] * 15
+            
+        return render(request, self.template_name, context )
+    def get(self, request):
+        context = self.get_context_data()
+        context['number'] = [1] * 15
+        context['inicio'] = True
+        return render(request, self.template_name, context )
+    
+    
+    
 
-     
+class Register(TemplateView):
+    def post(self, request):
+        form = RegisterForm(request.POST)
+        if form.is_valid():
+            user = User.objects.create_user(
+                username=form.cleaned_data['username'],
+                email=form.cleaned_data['email'],
+                password=form.cleaned_data['password1']
+            )
+            user.save()
+            messages.success(request, 'Conta criada com sucesso! Faça login.')
+            return redirect('Chatbot:login')
+        else:
+            return render(request, 'pages/registration/register.html', {'errors': form.errors})
+    
+    def get(self, request):
+        return render(request, 'pages/registration/register.html')
 
-        data = parse_product(description)  
-        return JsonResponse(data)
 
+class Login(TemplateView):
+    def post(self, request):
+        form = LoginForm(request.POST)
+        if form.is_valid():
+            login(request, form.user)  # Função nativa do Django para login
+            return redirect('Chatbot:home')
+        return render(request, 'pages/registration/login.html', {'form': form})
 
+    def get(self, request):
+        form = LoginForm()
+    
+        return render(request, 'pages/registration/login.html', {'form': form})
+    
 
+class home(TemplateView):
+    template_name = "pages/home.html"
+    
 
+        
+    def get(self, request):
+        context = self.get_context_data()
+        conversation_id = request.GET.get("conversation_id", '')
+        if conversation_id:
+            conversation = get_object_or_404(ConversationMemory, user=request.user.id, id=conversation_id)
+            messages = ChatMessage.objects.filter(conversation=conversation).order_by('created_at')
+        
+            context['conversation'] = conversation
 
+            context['messages'] = messages
+        instrumentos_view()
+        return render(request, self.template_name, context)
 
+    def post(self, request):
+        context = self.get_context_data()
+        conversation_id = request.GET.get("conversation_id", 0)
+        user_message = request.POST.get('user_message')
+        
+        if user_message:
+            conversation, _ = ConversationMemory.objects.get_or_create(user=request.user, id=conversation_id)
+            messages = ChatMessage.objects.filter(conversation=conversation.id).order_by('created_at')
+            response = chatbot_utils.generate_response_with_summary(conversation, user_message)
+            
+            context['conversation'] = conversation
+            context['messages'] = messages
+        else:
+            print("no bitches")
+        return render(request, self.template_name, context)
+        

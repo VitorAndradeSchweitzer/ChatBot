@@ -1,0 +1,77 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block body %}
+    {% include 'partials/header.html' %}
+<div class="bg-login w-100" style="min-height: 95vh">
+    <section class="container h-100 d-flex align-items-center justify-content-center" style="min-height: 85vh">
+        <div class="card w-75 h-100 bg-custom-blured border-0" style="max-height: 85vh;">
+            <div class="card-body p-0 h-100">
+                <div class="d-flex flex-column flex-md-row h-100">
+
+                    <!-- Lado esquerdo -->
+                    <div class="col-12 col-md-6 d-flex align-items-center  text-center text-white py-4 px-5"
+                        style="background: rgba(0,0,0,0.4);">
+                        <div>
+                            <h6 class="display-5 text-custom-secondary">
+                                <b>
+                                    <span class="text-custom-secondary fs-3">&lt;</span>
+                                    <i class="bi bi-music-note-list me-2" style="font-size:35px"></i>
+                                    MAESTRO
+                                    <span class="text-custom-secondary fs-3">&gt;</span>
+                                </b>
+                            </h6>
+                            <hr>
+                            <p class="fs-5">Bem-vindo de volta!<br> Entre e continue sua jornada musical conosco.</p>
+                            <p class="mt-3 text-center">
+                                Não tem uma conta?
+                                <a href="{% url 'Chatbot:register' %}" class="fw-bold text-custom-secondary">Cadastre-se aqui</a>
+                            </p>
+                        </div>
+                    </div>
+
+                  
+                    <!-- Lado direito -->
+                    <div class="col-12 col-md-6 bg-white d-flex align-items-center justify-content-center p-4">
+                        <form class="w-100 d-flex  justify-content-center flex-column" style="min-width: 350px; min-height: 450px" method="POST" action="{% url 'Chatbot:login' %}">
+                            <h4 class="display-5"><b>Login</b></h4>
+                            <p class="">Por favor, entre com suas credencias</p>
+                            {% csrf_token %}
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Usuário:</label>
+                                <input type="text" id="username" name="username" class="form-control"
+                                       value="{{ form.username.value|default_if_none:'' }}" required>
+                                {% if form.username.errors %}
+                                    <div class="error">{{ form.username.errors.0 }}</div> aa
+                                {% endif %}
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Senha:</label>
+                                <input type="password" id="password" name="password" class="form-control" required>
+                                {% if form.password.errors %}
+                                    <div class="error">{{ form.password.errors.0 }}</div> aa
+                                {% endif %}
+                            </div>
+
+                            {% if form.non_field_errors %}
+                                <div class="error mb-3">{{ form.non_field_errors.0 }}</div>
+                            {% endif %}
+                            <div class="ms-auto mb-5">Esqueceu a senha?</div>
+                            <button type="submit" class="btn btn-custom w-100">Entrar</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+{% endblock %}
+{% block script %}
+
+
+
+
+{% endblock %}

@@ -1,0 +1,1052 @@
+[
+  {
+    "name": "Standard Conga Audio-Technica",
+    "description": "O Standard Conga Audio-Technica oferece projeção poderosa e tons bem definidos. Hardware resistente para performances intensas.",
+    "price": 3699.0,
+    "stock": 29,
+    "category": "percussão"
+  },
+  {
+    "name": "Taylor Compacto Workstation",
+    "description": "Taylor Compacto Workstation - Uma seleção de vozes premium e acompanimentos automáticos para inspirar sua criatividade musical.",
+    "price": 8070.0,
+    "stock": 48,
+    "category": "teclas"
+  },
+  {
+    "name": "Sennheiser Palheta Deluxe",
+    "description": "Sennheiser Palheta Deluxe - Acessório essencial para músicos, oferecendo confiabilidade e desempenho superior em todas as situações.",
+    "price": 600.0,
+    "stock": 21,
+    "category": "acessórios"
+  },
+  {
+    "name": "Sabian Vibrafone Limited",
+    "description": "Sabian Vibrafone Limited - Conjunto de percussão com excelente resposta e durabilidade. Perfect para estúdio e palco.",
+    "price": 6079.0,
+    "stock": 18,
+    "category": "percussão"
+  },
+  {
+    "name": "Korg Controlador MIDI Analógico",
+    "description": "Desfrute da versatilidade do Korg Controlador MIDI Analógico. Interface intuitiva e conectividade completa para integração com DAWs.",
+    "price": 9769.0,
+    "stock": 28,
+    "category": "teclas"
+  },
+  {
+    "name": "Elétrico Tambor Behringer",
+    "description": "O Elétrico Tambor Behringer oferece projeção poderosa e tons bem definidos. Hardware resistente para performances intensas.",
+    "price": 810.0,
+    "stock": 25,
+    "category": "percussão"
+  },
+  {
+    "name": "Fender Case Vintage",
+    "description": "Melhore sua experiência musical com o Fender Case Vintage. Design funcional e materiais premium para resultados profissionais.",
+    "price": 70.0,
+    "stock": 32,
+    "category": "acessórios"
+  },
+  {
+    "name": "Taylor Elétrico Flauta",
+    "description": "O Taylor Elétrico Flauta proporciona resposta precisa e entonação perfeita. Construído com materiais de alta qualidade para durabilidade.",
+    "price": 7109.0,
+    "stock": 24,
+    "category": "sopro"
+  },
+  {
+    "name": "Estúdio Tuba Nord",
+    "description": "O Estúdio Tuba Nord proporciona resposta precisa e entonação perfeita. Construído com materiais de alta qualidade para durabilidade.",
+    "price": 4360.0,
+    "stock": 2,
+    "category": "sopro"
+  },
+  {
+    "name": "Tambor Martin Custom",
+    "description": "Experimente a qualidade do Tambor Martin Custom. Acabamento premium e sonoridade excepcional para todas as aplicações.",
+    "price": 4009.0,
+    "stock": 25,
+    "category": "percussão"
+  },
+  {
+    "name": "Taylor Deluxe Gaita",
+    "description": "O Taylor Deluxe Gaita proporciona resposta precisa e entonação perfeita. Construído com materiais de alta qualidade para durabilidade.",
+    "price": 7160.0,
+    "stock": 35,
+    "category": "sopro"
+  },
+  {
+    "name": "Sabian Baqueta Elétrico",
+    "description": "O Sabian Baqueta Elétrico é fabricado com materiais de alta qualidade para durabilidade e desempenho excepcional.",
+    "price": 59.0,
+    "stock": 23,
+    "category": "acessórios"
+  },
+  {
+    "name": "Korg Monitor de Áudio Acústico",
+    "description": "Desfrute da qualidade de áudio do Korg Monitor de Áudio Acústico. Design inovador e tecnologia de ponta para resultados superiores.",
+    "price": 6170.0,
+    "stock": 3,
+    "category": "áudio"
+  },
+  {
+    "name": "Sennheiser Limited Banjo",
+    "description": "Sennheiser Limited Banjo - Perfeito para performances ao vivo e gravações em estúdio. Construção robusta e acabamento impecável.",
+    "price": 819.0,
+    "stock": 0,
+    "category": "cordas"
+  },
+  {
+    "name": "Mapex Clássico Caixa de Som",
+    "description": "Mapex Clássico Caixa de Som - Equipamento de áudio profissional com recursos avançados e construção robusta para uso intensivo.",
+    "price": 5490.0,
+    "stock": 1,
+    "category": "áudio"
+  },
+  {
+    "name": "Gibson Atabaque Limited",
+    "description": "O Gibson Atabaque Limited oferece projeção poderosa e tons bem definidos. Hardware resistente para performances intensas.",
+    "price": 5890.0,
+    "stock": 0,
+    "category": "percussão"
+  },
+  {
+    "name": "Bateria Kawai Vintage",
+    "description": "Experimente a qualidade do Bateria Kawai Vintage. Acabamento premium e sonoridade excepcional para todas as aplicações.",
+    "price": 6470.0,
+    "stock": 19,
+    "category": "percussão"
+  },
+  {
+    "name": "Bongô Tama Acústico",
+    "description": "Bongô Tama Acústico - Conjunto de percussão com excelente resposta e durabilidade. Perfect para estúdio e palco.",
+    "price": 1130.0,
+    "stock": 20,
+    "category": "percussão"
+  },
+  {
+    "name": "Martin Estúdio Banjo",
+    "description": "Este Martin Estúdio Banjo oferece um timbre excepcional e ótima sustain. Ideal para músicos que buscam qualidade sonora e durabilidade.",
+    "price": 4030.0,
+    "stock": 1,
+    "category": "cordas"
+  },
+  {
+    "name": "Martin Violoncelo Clássico",
+    "description": "Experimente a excelência do Martin Violoncelo Clássico. Design ergonômico e resposta tonal equilibrada para todos os estilos musicais.",
+    "price": 1040.0,
+    "stock": 31,
+    "category": "cordas"
+  },
+  {
+    "name": "Nord Profissional Ukulele",
+    "description": "Nord Profissional Ukulele - Perfeito para performances ao vivo e gravações em estúdio. Construção robusta e acabamento impecável.",
+    "price": 1180.0,
+    "stock": 21,
+    "category": "cordas"
+  },
+  {
+    "name": "Behringer Moderno Case",
+    "description": "Melhore sua experiência musical com o Behringer Moderno Case. Design funcional e materiais premium para resultados profissionais.",
+    "price": 759.0,
+    "stock": 0,
+    "category": "acessórios"
+  },
+  {
+    "name": "Tube Sintetizador Sabian",
+    "description": "O Tube Sintetizador Sabian conta com sons realistas e recursos avançados para composição e performance. Teclado sensível ao toque.",
+    "price": 4810.0,
+    "stock": 9,
+    "category": "teclas"
+  },
+  {
+    "name": "Martin Acústico Trompa",
+    "description": "Descubra o som característico do Martin Acústico Trompa. Design ergonômico que facilita a execução e proporciona conforto.",
+    "price": 7579.0,
+    "stock": 48,
+    "category": "sopro"
+  },
+  {
+    "name": "Oboé Korg Limited",
+    "description": "O Oboé Korg Limited proporciona resposta precisa e entonação perfeita. Construído com materiais de alta qualidade para durabilidade.",
+    "price": 3189.0,
+    "stock": 17,
+    "category": "sopro"
+  },
+  {
+    "name": "Piano Digital Taylor Portátil",
+    "description": "Piano Digital Taylor Portátil - Uma seleção de vozes premium e acompanimentos automáticos para inspirar sua criatividade musical.",
+    "price": 10190.0,
+    "stock": 1,
+    "category": "teclas"
+  },
+  {
+    "name": "Elétrico Tambor Audio-Technica",
+    "description": "Experimente a qualidade do Elétrico Tambor Audio-Technica. Acabamento premium e sonoridade excepcional para todas as aplicações.",
+    "price": 1870.0,
+    "stock": 36,
+    "category": "percussão"
+  },
+  {
+    "name": "Profissional Microfone Casio",
+    "description": "Desfrute da qualidade de áudio do Profissional Microfone Casio. Design inovador e tecnologia de ponta para resultados superiores.",
+    "price": 4489.0,
+    "stock": 4,
+    "category": "áudio"
+  },
+  {
+    "name": "Banjo Taylor Standard",
+    "description": "Este Banjo Taylor Standard oferece um timbre excepcional e ótima sustain. Ideal para músicos que buscam qualidade sonora e durabilidade.",
+    "price": 3119.0,
+    "stock": 26,
+    "category": "cordas"
+  },
+  {
+    "name": "Mapex Processador de Efeitos Estúdio",
+    "description": "Desfrute da qualidade de áudio do Mapex Processador de Efeitos Estúdio. Design inovador e tecnologia de ponta para resultados superiores.",
+    "price": 5090.0,
+    "stock": 11,
+    "category": "áudio"
+  },
+  {
+    "name": "Gaita Martin Signature",
+    "description": "O Gaita Martin Signature proporciona resposta precisa e entonação perfeita. Construído com materiais de alta qualidade para durabilidade.",
+    "price": 2689.0,
+    "stock": 16,
+    "category": "sopro"
+  },
+  {
+    "name": "Profissional Saxofone Fender",
+    "description": "O Profissional Saxofone Fender proporciona resposta precisa e entonação perfeita. Construído com materiais de alta qualidade para durabilidade.",
+    "price": 3810.0,
+    "stock": 20,
+    "category": "sopro"
+  },
+  {
+    "name": "Nord Compacto Baqueta",
+    "description": "Nord Compacto Baqueta - Acessório essencial para músicos, oferecendo confiabilidade e desempenho superior em todas as situações.",
+    "price": 579.0,
+    "stock": 43,
+    "category": "acessórios"
+  },
+  {
+    "name": "Analógico Acordeão Sennheiser",
+    "description": "Analógico Acordeão Sennheiser - Uma seleção de vozes premium e acompanimentos automáticos para inspirar sua criatividade musical.",
+    "price": 6510.0,
+    "stock": 0,
+    "category": "teclas"
+  },
+  {
+    "name": "Roland Deluxe Processador de Efeitos",
+    "description": "O Roland Deluxe Processador de Efeitos proporciona captação precisa e reprodução fiel. Ideal para gravação, mixagem e masterização.",
+    "price": 7040.0,
+    "stock": 29,
+    "category": "áudio"
+  },
+  {
+    "name": "Sanfona Mapex Moderno",
+    "description": "Desfrute da versatilidade do Sanfona Mapex Moderno. Interface intuitiva e conectividade completa para integração com DAWs.",
+    "price": 12520.0,
+    "stock": 38,
+    "category": "teclas"
+  },
+  {
+    "name": "Taylor Bongô Compacto",
+    "description": "Experimente a qualidade do Taylor Bongô Compacto. Acabamento premium e sonoridade excepcional para todas as aplicações.",
+    "price": 1319.0,
+    "stock": 18,
+    "category": "percussão"
+  },
+  {
+    "name": "Deluxe Piano Casio",
+    "description": "Desfrute da versatilidade do Deluxe Piano Casio. Interface intuitiva e conectividade completa para integração com DAWs.",
+    "price": 5689.0,
+    "stock": 45,
+    "category": "teclas"
+  },
+  {
+    "name": "Marimba Sabian Compacto",
+    "description": "Experimente a qualidade do Marimba Sabian Compacto. Acabamento premium e sonoridade excepcional para todas as aplicações.",
+    "price": 1660.0,
+    "stock": 4,
+    "category": "percussão"
+  },
+  {
+    "name": "Korg Compacto Bongô",
+    "description": "O Korg Compacto Bongô oferece projeção poderosa e tons bem definidos. Hardware resistente para performances intensas.",
+    "price": 9700.0,
+    "stock": 16,
+    "category": "percussão"
+  },
+  {
+    "name": "Harpa Fender Limited",
+    "description": "Este Harpa Fender Limited oferece um timbre excepcional e ótima sustain. Ideal para músicos que buscam qualidade sonora e durabilidade.",
+    "price": 4240.0,
+    "stock": 0,
+    "category": "cordas"
+  },
+  {
+    "name": "Custom Caixa de Som Yamaha",
+    "description": "Desfrute da qualidade de áudio do Custom Caixa de Som Yamaha. Design inovador e tecnologia de ponta para resultados superiores.",
+    "price": 6259.0,
+    "stock": 44,
+    "category": "áudio"
+  },
+  {
+    "name": "Analógico Conga Audio-Technica",
+    "description": "O Analógico Conga Audio-Technica oferece projeção poderosa e tons bem definidos. Hardware resistente para performances intensas.",
+    "price": 1779.0,
+    "stock": 7,
+    "category": "percussão"
+  },
+  {
+    "name": "Mapex Mixer Deluxe",
+    "description": "Mapex Mixer Deluxe - Equipamento de áudio profissional com recursos avançados e construção robusta para uso intensivo.",
+    "price": 7339.0,
+    "stock": 0,
+    "category": "áudio"
+  },
+  {
+    "name": "Roland Portátil Guitarra",
+    "description": "Experimente a excelência do Roland Portátil Guitarra. Design ergonômico e resposta tonal equilibrada para todos os estilos musicais.",
+    "price": 1540.0,
+    "stock": 47,
+    "category": "cordas"
+  },
+  {
+    "name": "Gibson Workstation Signature",
+    "description": "Gibson Workstation Signature - Uma seleção de vozes premium e acompanimentos automáticos para inspirar sua criatividade musical.",
+    "price": 11459.0,
+    "stock": 2,
+    "category": "teclas"
+  },
+  {
+    "name": "Behringer Violino Compacto",
+    "description": "Este Behringer Violino Compacto oferece um timbre excepcional e ótima sustain. Ideal para músicos que buscam qualidade sonora e durabilidade.",
+    "price": 1959.0,
+    "stock": 15,
+    "category": "cordas"
+  },
+  {
+    "name": "Teclado Arranger Mapex Ao Vivo",
+    "description": "O Teclado Arranger Mapex Ao Vivo conta com sons realistas e recursos avançados para composição e performance. Teclado sensível ao toque.",
+    "price": 3259.0,
+    "stock": 1,
+    "category": "teclas"
+  },
+  {
+    "name": "Kawai Pandeiro Vintage",
+    "description": "Kawai Pandeiro Vintage - Conjunto de percussão com excelente resposta e durabilidade. Perfect para estúdio e palco.",
+    "price": 4240.0,
+    "stock": 47,
+    "category": "percussão"
+  },
+  {
+    "name": "Gibson Acordeão Standard",
+    "description": "O Gibson Acordeão Standard conta com sons realistas e recursos avançados para composição e performance. Teclado sensível ao toque.",
+    "price": 7360.0,
+    "stock": 34,
+    "category": "teclas"
+  },
+  {
+    "name": "Pearl Pedal Estúdio",
+    "description": "Melhore sua experiência musical com o Pearl Pedal Estúdio. Design funcional e materiais premium para resultados profissionais.",
+    "price": 760.0,
+    "stock": 21,
+    "category": "acessórios"
+  },
+  {
+    "name": "Sintetizador Fender Deluxe",
+    "description": "O Sintetizador Fender Deluxe conta com sons realistas e recursos avançados para composição e performance. Teclado sensível ao toque.",
+    "price": 1319.0,
+    "stock": 27,
+    "category": "teclas"
+  },
+  {
+    "name": "Kawai Estúdio Vibrafone",
+    "description": "O Kawai Estúdio Vibrafone oferece projeção poderosa e tons bem definidos. Hardware resistente para performances intensas.",
+    "price": 1990.0,
+    "stock": 23,
+    "category": "percussão"
+  },
+  {
+    "name": "Digital Ukulele Sabian",
+    "description": "Experimente a excelência do Digital Ukulele Sabian. Design ergonômico e resposta tonal equilibrada para todos os estilos musicais.",
+    "price": 980.0,
+    "stock": 1,
+    "category": "cordas"
+  },
+  {
+    "name": "Acordeão Roland Premium",
+    "description": "O Acordeão Roland Premium conta com sons realistas e recursos avançados para composição e performance. Teclado sensível ao toque.",
+    "price": 12310.0,
+    "stock": 2,
+    "category": "teclas"
+  },
+  {
+    "name": "Profissional Conga Ibanez",
+    "description": "Experimente a qualidade do Profissional Conga Ibanez. Acabamento premium e sonoridade excepcional para todas as aplicações.",
+    "price": 6000.0,
+    "stock": 0,
+    "category": "percussão"
+  },
+  {
+    "name": "Acordeão Behringer Acústico",
+    "description": "O Acordeão Behringer Acústico conta com sons realistas e recursos avançados para composição e performance. Teclado sensível ao toque.",
+    "price": 1489.0,
+    "stock": 11,
+    "category": "teclas"
+  },
+  {
+    "name": "Fone de Ouvido Martin Digital",
+    "description": "O Fone de Ouvido Martin Digital proporciona captação precisa e reprodução fiel. Ideal para gravação, mixagem e masterização.",
+    "price": 7589.0,
+    "stock": 23,
+    "category": "áudio"
+  },
+  {
+    "name": "Baqueta Sabian Practice",
+    "description": "Baqueta Sabian Practice - Acessório essencial para músicos, oferecendo confiabilidade e desempenho superior em todas as situações.",
+    "price": 639.0,
+    "stock": 10,
+    "category": "acessórios"
+  },
+  {
+    "name": "Conga Taylor Practice",
+    "description": "Experimente a qualidade do Conga Taylor Practice. Acabamento premium e sonoridade excepcional para todas as aplicações.",
+    "price": 8749.0,
+    "stock": 32,
+    "category": "percussão"
+  },
+  {
+    "name": "Sennheiser Premium Controladora DJ",
+    "description": "O Sennheiser Premium Controladora DJ proporciona captação precisa e reprodução fiel. Ideal para gravação, mixagem e masterização.",
+    "price": 5250.0,
+    "stock": 13,
+    "category": "áudio"
+  },
+  {
+    "name": "Flauta Yamaha Tube",
+    "description": "Flauta Yamaha Tube - Instrumento de sopro com afinação precisa e tom rico. Ideal para estudantes e profissionais.",
+    "price": 3319.0,
+    "stock": 40,
+    "category": "sopro"
+  },
+  {
+    "name": "Custom Bandolim Shure",
+    "description": "Este Custom Bandolim Shure oferece um timbre excepcional e ótima sustain. Ideal para músicos que buscam qualidade sonora e durabilidade.",
+    "price": 1449.0,
+    "stock": 1,
+    "category": "cordas"
+  },
+  {
+    "name": "Violão Shure Profissional",
+    "description": "Experimente a excelência do Violão Shure Profissional. Design ergonômico e resposta tonal equilibrada para todos os estilos musicais.",
+    "price": 4160.0,
+    "stock": 3,
+    "category": "cordas"
+  },
+  {
+    "name": "Taylor Ao Vivo Trombone",
+    "description": "Descubra o som característico do Taylor Ao Vivo Trombone. Design ergonômico que facilita a execução e proporciona conforto.",
+    "price": 4879.0,
+    "stock": 35,
+    "category": "sopro"
+  },
+  {
+    "name": "Shure Elétrico Trombone",
+    "description": "O Shure Elétrico Trombone proporciona resposta precisa e entonação perfeita. Construído com materiais de alta qualidade para durabilidade.",
+    "price": 1609.0,
+    "stock": 27,
+    "category": "sopro"
+  },
+  {
+    "name": "Martin Clássico Violão",
+    "description": "Experimente a excelência do Martin Clássico Violão. Design ergonômico e resposta tonal equilibrada para todos os estilos musicais.",
+    "price": 4630.0,
+    "stock": 43,
+    "category": "cordas"
+  },
+  {
+    "name": "Gravador Nord Standard",
+    "description": "Desfrute da qualidade de áudio do Gravador Nord Standard. Design inovador e tecnologia de ponta para resultados superiores.",
+    "price": 6460.0,
+    "stock": 11,
+    "category": "áudio"
+  },
+  {
+    "name": "Taylor Profissional Oboé",
+    "description": "O Taylor Profissional Oboé proporciona resposta precisa e entonação perfeita. Construído com materiais de alta qualidade para durabilidade.",
+    "price": 4279.0,
+    "stock": 39,
+    "category": "sopro"
+  },
+  {
+    "name": "Teclado Arranger Tama Vintage",
+    "description": "O Teclado Arranger Tama Vintage conta com sons realistas e recursos avançados para composição e performance. Teclado sensível ao toque.",
+    "price": 13239.0,
+    "stock": 2,
+    "category": "teclas"
+  },
+  {
+    "name": "Fender Estúdio Saxofone",
+    "description": "Descubra o som característico do Fender Estúdio Saxofone. Design ergonômico que facilita a execução e proporciona conforto.",
+    "price": 5929.0,
+    "stock": 23,
+    "category": "sopro"
+  },
+  {
+    "name": "Piano Digital Sabian Moderno",
+    "description": "Piano Digital Sabian Moderno - Uma seleção de vozes premium e acompanimentos automáticos para inspirar sua criatividade musical.",
+    "price": 13930.0,
+    "stock": 19,
+    "category": "teclas"
+  },
+  {
+    "name": "Clássico Caixa de Som Shure",
+    "description": "O Clássico Caixa de Som Shure proporciona captação precisa e reprodução fiel. Ideal para gravação, mixagem e masterização.",
+    "price": 5290.0,
+    "stock": 20,
+    "category": "áudio"
+  },
+  {
+    "name": "Elétrico Violino Audio-Technica",
+    "description": "Elétrico Violino Audio-Technica - Perfeito para performances ao vivo e gravações em estúdio. Construção robusta e acabamento impecável.",
+    "price": 2719.0,
+    "stock": 31,
+    "category": "cordas"
+  },
+  {
+    "name": "Palheta Martin Ao Vivo",
+    "description": "Palheta Martin Ao Vivo - Acessório essencial para músicos, oferecendo confiabilidade e desempenho superior em todas as situações.",
+    "price": 210.0,
+    "stock": 40,
+    "category": "acessórios"
+  },
+  {
+    "name": "Fender Custom Teclado",
+    "description": "Fender Custom Teclado - Uma seleção de vozes premium e acompanimentos automáticos para inspirar sua criatividade musical.",
+    "price": 12639.0,
+    "stock": 27,
+    "category": "teclas"
+  },
+  {
+    "name": "Ibanez Trombone Standard",
+    "description": "Descubra o som característico do Ibanez Trombone Standard. Design ergonômico que facilita a execução e proporciona conforto.",
+    "price": 4259.0,
+    "stock": 31,
+    "category": "sopro"
+  },
+  {
+    "name": "Sennheiser Premium Oboé",
+    "description": "Descubra o som característico do Sennheiser Premium Oboé. Design ergonômico que facilita a execução e proporciona conforto.",
+    "price": 5660.0,
+    "stock": 0,
+    "category": "sopro"
+  },
+  {
+    "name": "Pearl Custom Cavaquinho",
+    "description": "Pearl Custom Cavaquinho - Perfeito para performances ao vivo e gravações em estúdio. Construção robusta e acabamento impecável.",
+    "price": 2859.0,
+    "stock": 40,
+    "category": "cordas"
+  },
+  {
+    "name": "Ibanez Saxofone Profissional",
+    "description": "Descubra o som característico do Ibanez Saxofone Profissional. Design ergonômico que facilita a execução e proporciona conforto.",
+    "price": 4000.0,
+    "stock": 25,
+    "category": "sopro"
+  },
+  {
+    "name": "Behringer Clássico Clarinete",
+    "description": "O Behringer Clássico Clarinete proporciona resposta precisa e entonação perfeita. Construído com materiais de alta qualidade para durabilidade.",
+    "price": 3699.0,
+    "stock": 42,
+    "category": "sopro"
+  },
+  {
+    "name": "Limited Bandolim BOSS",
+    "description": "Este Limited Bandolim BOSS oferece um timbre excepcional e ótima sustain. Ideal para músicos que buscam qualidade sonora e durabilidade.",
+    "price": 439.0,
+    "stock": 4,
+    "category": "cordas"
+  },
+  {
+    "name": "Flauta Pearl Practice",
+    "description": "Descubra o som característico do Flauta Pearl Practice. Design ergonômico que facilita a execução e proporciona conforto.",
+    "price": 4169.0,
+    "stock": 15,
+    "category": "sopro"
+  },
+  {
+    "name": "Acordeão Nord Estúdio",
+    "description": "Desfrute da versatilidade do Acordeão Nord Estúdio. Interface intuitiva e conectividade completa para integração com DAWs.",
+    "price": 5230.0,
+    "stock": 9,
+    "category": "teclas"
+  },
+  {
+    "name": "Casio Standard Cabo",
+    "description": "Melhore sua experiência musical com o Casio Standard Cabo. Design funcional e materiais premium para resultados profissionais.",
+    "price": 220.0,
+    "stock": 45,
+    "category": "acessórios"
+  },
+  {
+    "name": "Digital Trombone BOSS",
+    "description": "Descubra o som característico do Digital Trombone BOSS. Design ergonômico que facilita a execução e proporciona conforto.",
+    "price": 7299.0,
+    "stock": 36,
+    "category": "sopro"
+  },
+  {
+    "name": "Portátil Sintetizador Yamaha",
+    "description": "O Portátil Sintetizador Yamaha conta com sons realistas e recursos avançados para composição e performance. Teclado sensível ao toque.",
+    "price": 10059.0,
+    "stock": 34,
+    "category": "teclas"
+  },
+  {
+    "name": "Kawai Profissional Bateria",
+    "description": "Experimente a qualidade do Kawai Profissional Bateria. Acabamento premium e sonoridade excepcional para todas as aplicações.",
+    "price": 5569.0,
+    "stock": 1,
+    "category": "percussão"
+  },
+  {
+    "name": "Elétrico Clarinete Yamaha",
+    "description": "Descubra o som característico do Elétrico Clarinete Yamaha. Design ergonômico que facilita a execução e proporciona conforto.",
+    "price": 6930.0,
+    "stock": 11,
+    "category": "sopro"
+  },
+  {
+    "name": "Sennheiser Custom Trompete",
+    "description": "O Sennheiser Custom Trompete proporciona resposta precisa e entonação perfeita. Construído com materiais de alta qualidade para durabilidade.",
+    "price": 2890.0,
+    "stock": 1,
+    "category": "sopro"
+  },
+  {
+    "name": "Fagote BOSS Ao Vivo",
+    "description": "Descubra o som característico do Fagote BOSS Ao Vivo. Design ergonômico que facilita a execução e proporciona conforto.",
+    "price": 3830.0,
+    "stock": 21,
+    "category": "sopro"
+  },
+  {
+    "name": "BOSS Ao Vivo Sintetizador",
+    "description": "BOSS Ao Vivo Sintetizador - Uma seleção de vozes premium e acompanimentos automáticos para inspirar sua criatividade musical.",
+    "price": 8139.0,
+    "stock": 35,
+    "category": "teclas"
+  },
+  {
+    "name": "Kawai Premium Fagote",
+    "description": "Kawai Premium Fagote - Instrumento de sopro com afinação precisa e tom rico. Ideal para estudantes e profissionais.",
+    "price": 7909.0,
+    "stock": 26,
+    "category": "sopro"
+  },
+  {
+    "name": "Kawai Deluxe Mixer",
+    "description": "Desfrute da qualidade de áudio do Kawai Deluxe Mixer. Design inovador e tecnologia de ponta para resultados superiores.",
+    "price": 4389.0,
+    "stock": 0,
+    "category": "áudio"
+  },
+  {
+    "name": "Custom Interface de Áudio Behringer",
+    "description": "Desfrute da qualidade de áudio do Custom Interface de Áudio Behringer. Design inovador e tecnologia de ponta para resultados superiores.",
+    "price": 6860.0,
+    "stock": 46,
+    "category": "áudio"
+  },
+  {
+    "name": "Kawai Limited Caixa de Som",
+    "description": "Desfrute da qualidade de áudio do Kawai Limited Caixa de Som. Design inovador e tecnologia de ponta para resultados superiores.",
+    "price": 7780.0,
+    "stock": 29,
+    "category": "áudio"
+  },
+  {
+    "name": "Sabian Afidador Acústico",
+    "description": "O Sabian Afidador Acústico é fabricado com materiais de alta qualidade para durabilidade e desempenho excepcional.",
+    "price": 570.0,
+    "stock": 48,
+    "category": "acessórios"
+  },
+  {
+    "name": "Pandeiro Sennheiser Digital",
+    "description": "Experimente a qualidade do Pandeiro Sennheiser Digital. Acabamento premium e sonoridade excepcional para todas as aplicações.",
+    "price": 3039.0,
+    "stock": 20,
+    "category": "percussão"
+  },
+  {
+    "name": "Sennheiser Estúdio Cavaquinho",
+    "description": "Este Sennheiser Estúdio Cavaquinho oferece um timbre excepcional e ótima sustain. Ideal para músicos que buscam qualidade sonora e durabilidade.",
+    "price": 4109.0,
+    "stock": 41,
+    "category": "cordas"
+  },
+  {
+    "name": "Atabaque BOSS Deluxe",
+    "description": "O Atabaque BOSS Deluxe oferece projeção poderosa e tons bem definidos. Hardware resistente para performances intensas.",
+    "price": 5429.0,
+    "stock": 19,
+    "category": "percussão"
+  },
+  {
+    "name": "Casio Portátil Gaita",
+    "description": "O Casio Portátil Gaita proporciona resposta precisa e entonação perfeita. Construído com materiais de alta qualidade para durabilidade.",
+    "price": 5069.0,
+    "stock": 44,
+    "category": "sopro"
+  },
+  {
+    "name": "Taylor Custom Banjo",
+    "description": "Este Taylor Custom Banjo oferece um timbre excepcional e ótima sustain. Ideal para músicos que buscam qualidade sonora e durabilidade.",
+    "price": 2729.0,
+    "stock": 31,
+    "category": "cordas"
+  },
+  {
+    "name": "Yamaha Custom Cavaquinho",
+    "description": "Yamaha Custom Cavaquinho - Perfeito para performances ao vivo e gravações em estúdio. Construção robusta e acabamento impecável.",
+    "price": 339.0,
+    "stock": 8,
+    "category": "cordas"
+  },
+  {
+    "name": "Ibanez Premium Harpa",
+    "description": "Experimente a excelência do Ibanez Premium Harpa. Design ergonômico e resposta tonal equilibrada para todos os estilos musicais.",
+    "price": 959.0,
+    "stock": 3,
+    "category": "cordas"
+  },
+  {
+    "name": "Elétrico Bateria Kawai",
+    "description": "O Elétrico Bateria Kawai oferece projeção poderosa e tons bem definidos. Hardware resistente para performances intensas.",
+    "price": 7780.0,
+    "stock": 0,
+    "category": "percussão"
+  },
+  {
+    "name": "Gravador Gibson Elétrico",
+    "description": "Gravador Gibson Elétrico - Equipamento de áudio profissional com recursos avançados e construção robusta para uso intensivo.",
+    "price": 279.0,
+    "stock": 13,
+    "category": "áudio"
+  },
+  {
+    "name": "Fender Guitarra Moderno",
+    "description": "Este Fender Guitarra Moderno oferece um timbre excepcional e ótima sustain. Ideal para músicos que buscam qualidade sonora e durabilidade.",
+    "price": 3129.0,
+    "stock": 25,
+    "category": "cordas"
+  },
+  {
+    "name": "Behringer Tube Flauta",
+    "description": "Behringer Tube Flauta - Instrumento de sopro com afinação precisa e tom rico. Ideal para estudantes e profissionais.",
+    "price": 7860.0,
+    "stock": 16,
+    "category": "sopro"
+  },
+  {
+    "name": "Mapex Acordeão Portátil",
+    "description": "O Mapex Acordeão Portátil conta com sons realistas e recursos avançados para composição e performance. Teclado sensível ao toque.",
+    "price": 9109.0,
+    "stock": 25,
+    "category": "teclas"
+  },
+  {
+    "name": "Teclado Sabian Profissional",
+    "description": "Teclado Sabian Profissional - Uma seleção de vozes premium e acompanimentos automáticos para inspirar sua criatividade musical.",
+    "price": 13050.0,
+    "stock": 3,
+    "category": "teclas"
+  },
+  {
+    "name": "Workstation Martin Elétrico",
+    "description": "Workstation Martin Elétrico - Uma seleção de vozes premium e acompanimentos automáticos para inspirar sua criatividade musical.",
+    "price": 12810.0,
+    "stock": 48,
+    "category": "teclas"
+  },
+  {
+    "name": "Shure Standard Palheta",
+    "description": "Melhore sua experiência musical com o Shure Standard Palheta. Design funcional e materiais premium para resultados profissionais.",
+    "price": 329.0,
+    "stock": 17,
+    "category": "acessórios"
+  },
+  {
+    "name": "Clássico Bandolim Yamaha",
+    "description": "Experimente a excelência do Clássico Bandolim Yamaha. Design ergonômico e resposta tonal equilibrada para todos os estilos musicais.",
+    "price": 909.0,
+    "stock": 0,
+    "category": "cordas"
+  },
+  {
+    "name": "BOSS Acústico Violoncelo",
+    "description": "Experimente a excelência do BOSS Acústico Violoncelo. Design ergonômico e resposta tonal equilibrada para todos os estilos musicais.",
+    "price": 1590.0,
+    "stock": 1,
+    "category": "cordas"
+  },
+  {
+    "name": "Deluxe Teclado Fender",
+    "description": "Desfrute da versatilidade do Deluxe Teclado Fender. Interface intuitiva e conectividade completa para integração com DAWs.",
+    "price": 2049.0,
+    "stock": 0,
+    "category": "teclas"
+  },
+  {
+    "name": "Behringer Portátil Teclado",
+    "description": "Behringer Portátil Teclado - Uma seleção de vozes premium e acompanimentos automáticos para inspirar sua criatividade musical.",
+    "price": 1700.0,
+    "stock": 16,
+    "category": "teclas"
+  },
+  {
+    "name": "Martin Estúdio Caixa de Som",
+    "description": "O Martin Estúdio Caixa de Som proporciona captação precisa e reprodução fiel. Ideal para gravação, mixagem e masterização.",
+    "price": 7800.0,
+    "stock": 24,
+    "category": "áudio"
+  },
+  {
+    "name": "Kawai Banjo Custom",
+    "description": "Kawai Banjo Custom - Perfeito para performances ao vivo e gravações em estúdio. Construção robusta e acabamento impecável.",
+    "price": 4539.0,
+    "stock": 37,
+    "category": "cordas"
+  },
+  {
+    "name": "Bateria Nord Standard",
+    "description": "Experimente a qualidade do Bateria Nord Standard. Acabamento premium e sonoridade excepcional para todas as aplicações.",
+    "price": 1620.0,
+    "stock": 4,
+    "category": "percussão"
+  },
+  {
+    "name": "BOSS Premium Piano Digital",
+    "description": "BOSS Premium Piano Digital - Uma seleção de vozes premium e acompanimentos automáticos para inspirar sua criatividade musical.",
+    "price": 2759.0,
+    "stock": 0,
+    "category": "teclas"
+  },
+  {
+    "name": "Sabian Pandeiro Digital",
+    "description": "Experimente a qualidade do Sabian Pandeiro Digital. Acabamento premium e sonoridade excepcional para todas as aplicações.",
+    "price": 5370.0,
+    "stock": 34,
+    "category": "percussão"
+  },
+  {
+    "name": "Gibson Acústico Piano",
+    "description": "Gibson Acústico Piano - Uma seleção de vozes premium e acompanimentos automáticos para inspirar sua criatividade musical.",
+    "price": 4370.0,
+    "stock": 25,
+    "category": "teclas"
+  },
+  {
+    "name": "Fender Tambor Moderno",
+    "description": "Fender Tambor Moderno - Conjunto de percussão com excelente resposta e durabilidade. Perfect para estúdio e palco.",
+    "price": 3109.0,
+    "stock": 3,
+    "category": "percussão"
+  },
+  {
+    "name": "Vintage Atabaque Kawai",
+    "description": "O Vintage Atabaque Kawai oferece projeção poderosa e tons bem definidos. Hardware resistente para performances intensas.",
+    "price": 4310.0,
+    "stock": 32,
+    "category": "percussão"
+  },
+  {
+    "name": "Ibanez Violão Clássico",
+    "description": "Ibanez Violão Clássico - Perfeito para performances ao vivo e gravações em estúdio. Construção robusta e acabamento impecável.",
+    "price": 1609.0,
+    "stock": 28,
+    "category": "cordas"
+  },
+  {
+    "name": "Acústico Saxofone Pearl",
+    "description": "O Acústico Saxofone Pearl proporciona resposta precisa e entonação perfeita. Construído com materiais de alta qualidade para durabilidade.",
+    "price": 3480.0,
+    "stock": 48,
+    "category": "sopro"
+  },
+  {
+    "name": "Sintetizador Pearl Vintage",
+    "description": "Sintetizador Pearl Vintage - Uma seleção de vozes premium e acompanimentos automáticos para inspirar sua criatividade musical.",
+    "price": 14140.0,
+    "stock": 45,
+    "category": "teclas"
+  },
+  {
+    "name": "Compacto Sanfona Mapex",
+    "description": "Desfrute da versatilidade do Compacto Sanfona Mapex. Interface intuitiva e conectividade completa para integração com DAWs.",
+    "price": 950.0,
+    "stock": 37,
+    "category": "teclas"
+  },
+  {
+    "name": "Banjo Kawai Profissional",
+    "description": "Banjo Kawai Profissional - Perfeito para performances ao vivo e gravações em estúdio. Construção robusta e acabamento impecável.",
+    "price": 2170.0,
+    "stock": 45,
+    "category": "cordas"
+  },
+  {
+    "name": "Marimba Taylor Vintage",
+    "description": "O Marimba Taylor Vintage oferece projeção poderosa e tons bem definidos. Hardware resistente para performances intensas.",
+    "price": 6989.0,
+    "stock": 46,
+    "category": "percussão"
+  },
+  {
+    "name": "Profissional Bandolim Nord",
+    "description": "Experimente a excelência do Profissional Bandolim Nord. Design ergonômico e resposta tonal equilibrada para todos os estilos musicais.",
+    "price": 1489.0,
+    "stock": 12,
+    "category": "cordas"
+  },
+  {
+    "name": "Ao Vivo Tambor BOSS",
+    "description": "Ao Vivo Tambor BOSS - Conjunto de percussão com excelente resposta e durabilidade. Perfect para estúdio e palco.",
+    "price": 3899.0,
+    "stock": 2,
+    "category": "percussão"
+  },
+  {
+    "name": "Korg Violão Tube",
+    "description": "Experimente a excelência do Korg Violão Tube. Design ergonômico e resposta tonal equilibrada para todos os estilos musicais.",
+    "price": 4440.0,
+    "stock": 0,
+    "category": "cordas"
+  },
+  {
+    "name": "Limited Mixer Nord",
+    "description": "O Limited Mixer Nord proporciona captação precisa e reprodução fiel. Ideal para gravação, mixagem e masterização.",
+    "price": 7059.0,
+    "stock": 40,
+    "category": "áudio"
+  },
+  {
+    "name": "Workstation Taylor Estúdio",
+    "description": "Desfrute da versatilidade do Workstation Taylor Estúdio. Interface intuitiva e conectividade completa para integração com DAWs.",
+    "price": 6720.0,
+    "stock": 6,
+    "category": "teclas"
+  },
+  {
+    "name": "Portátil Violão Taylor",
+    "description": "Portátil Violão Taylor - Perfeito para performances ao vivo e gravações em estúdio. Construção robusta e acabamento impecável.",
+    "price": 689.0,
+    "stock": 0,
+    "category": "cordas"
+  },
+  {
+    "name": "Custom Amplificador Tama",
+    "description": "Custom Amplificador Tama - Equipamento de áudio profissional com recursos avançados e construção robusta para uso intensivo.",
+    "price": 7200.0,
+    "stock": 1,
+    "category": "áudio"
+  },
+  {
+    "name": "BOSS Palheta Clássico",
+    "description": "BOSS Palheta Clássico - Acessório essencial para músicos, oferecendo confiabilidade e desempenho superior em todas as situações.",
+    "price": 630.0,
+    "stock": 33,
+    "category": "acessórios"
+  },
+  {
+    "name": "Violino Pearl Analógico",
+    "description": "Este Violino Pearl Analógico oferece um timbre excepcional e ótima sustain. Ideal para músicos que buscam qualidade sonora e durabilidade.",
+    "price": 3099.0,
+    "stock": 3,
+    "category": "cordas"
+  },
+  {
+    "name": "Tambor Mapex Ao Vivo",
+    "description": "Tambor Mapex Ao Vivo - Conjunto de percussão com excelente resposta e durabilidade. Perfect para estúdio e palco.",
+    "price": 7659.0,
+    "stock": 31,
+    "category": "percussão"
+  },
+  {
+    "name": "Moderno Gaita Taylor",
+    "description": "O Moderno Gaita Taylor proporciona resposta precisa e entonação perfeita. Construído com materiais de alta qualidade para durabilidade.",
+    "price": 2429.0,
+    "stock": 44,
+    "category": "sopro"
+  },
+  {
+    "name": "Tama Compacto Estante",
+    "description": "Melhore sua experiência musical com o Tama Compacto Estante. Design funcional e materiais premium para resultados profissionais.",
+    "price": 799.0,
+    "stock": 34,
+    "category": "acessórios"
+  },
+  {
+    "name": "Mapex Premium Workstation",
+    "description": "Desfrute da versatilidade do Mapex Premium Workstation. Interface intuitiva e conectividade completa para integração com DAWs.",
+    "price": 12499.0,
+    "stock": 16,
+    "category": "teclas"
+  },
+  {
+    "name": "Piano Sennheiser Signature",
+    "description": "Desfrute da versatilidade do Piano Sennheiser Signature. Interface intuitiva e conectividade completa para integração com DAWs.",
+    "price": 10599.0,
+    "stock": 30,
+    "category": "teclas"
+  },
+  {
+    "name": "Tuba Pearl Signature",
+    "description": "Descubra o som característico do Tuba Pearl Signature. Design ergonômico que facilita a execução e proporciona conforto.",
+    "price": 4250.0,
+    "stock": 35,
+    "category": "sopro"
+  },
+  {
+    "name": "Casio Harpa Practice",
+    "description": "Experimente a excelência do Casio Harpa Practice. Design ergonômico e resposta tonal equilibrada para todos os estilos musicais.",
+    "price": 1659.0,
+    "stock": 3,
+    "category": "cordas"
+  },
+  {
+    "name": "Órgão Shure Profissional",
+    "description": "Órgão Shure Profissional - Uma seleção de vozes premium e acompanimentos automáticos para inspirar sua criatividade musical.",
+    "price": 8560.0,
+    "stock": 45,
+    "category": "teclas"
+  },
+  {
+    "name": "Digital Sintetizador Gibson",
+    "description": "Desfrute da versatilidade do Digital Sintetizador Gibson. Interface intuitiva e conectividade completa para integração com DAWs.",
+    "price": 14969.0,
+    "stock": 1,
+    "category": "teclas"
+  },
+  {
+    "name": "Pearl Compacto Harpa",
+    "description": "Este Pearl Compacto Harpa oferece um timbre excepcional e ótima sustain. Ideal para músicos que buscam qualidade sonora e durabilidade.",
+    "price": 3540.0,
+    "stock": 46,
+    "category": "cordas"
+  },
+  {
+    "name": "Martin Custom Afidador",
+    "description": "O Martin Custom Afidador é fabricado com materiais de alta qualidade para durabilidade e desempenho excepcional.",
+    "price": 29.0,
+    "stock": 12,
+    "category": "acessórios"
+  }
+]

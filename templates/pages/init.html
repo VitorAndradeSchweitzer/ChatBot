@@ -2,24 +2,71 @@
 {% load static %}
 
 {% block body %}
+    {% include 'partials/header.html' %}
     <section>
-        <div class=" w-100 d-block" style="min-height: 550px; position: relative">
+        <div class=" w-100 d-block" style="min-height: 550px;position: relative">
             
             <img class="w-100" style="max-height: 700px;" src="{% static 'global/css/images/wickedbackground.png' %}" alt="">
            
-            <div class="" style="position: absolute; top:35%; left: 50%; transform: translate(-50%, -50%)">  
-                <div class="w-100 h-100 d-flex align-items-center justify-content-center flex-column" style="min-height: 550px">
-                    <h4 class="display-4 text-white"><b><span class="text-custom-secondary fs-1"> < </span>CHATBOT GEN&Eacute;RICO!<span class="text-custom-secondary fs-1"> > </span> </b><h4>
-                    <p class="fs-3 text-white">Não sei do que fazer ainda :) <p>
+            <div class="mt-5 " style="position: absolute; top:35%; left: 50%; transform: translate(-50%, -50%)">  
+                <div class="w-100 h-100 d-flex align-items-center justify-content-center flex-column" style="min-height:300px">
+                    <h4 class="display-4 text-white"><b><span class="text-custom-secondary fs-1"> < </span> <i class="bi bi-music-note-list me-2" style="font-size:50px"></i>MAESTRO<span class="text-custom-secondary fs-1"> > </span> </b><h4>
+                    <p class="fs-3 text-white"> Seu parceiro na jornada musical! <p>
                 
-                    <div class="input-group mt-5">
-                        <input type="text" class="form-control input-custom" placeholder="Digite qualquer coisa...">
-                        <button class="btn btn-custom-primary" type="button">
-                            <i class="bi bi-search text-white"></i>
-                        </button>
-                    </div>                
+                    <form action="{% url 'Chatbot:init' %}" method="POST" id="demostrationFeature">
+                        <div class="input-group mt-5">
+                            {% csrf_token %}
+                            <input type="text" name="user_input" class="form-control input-custom" value="{{user_input}}" placeholder="Peça dicas de instrumentos, tutoriais, partituras...">
+                            <button class="btn btn-custom-primary" type="submit" >
+                                <i class="bi bi-search text-white"></i>
+                            </button>
+                      
+                        </div>  
+                    </form>     
+                    
+                    
+                </div>
+                <div class="card w-100  bg-custom-blured card-custom-scale " style="height:250px; overflow-y: scroll;">
+                    <div class="card-header font-primary"><b>Maestro:</b></div>
+                    <div class="card-body font-primary">
+                            <p>{{ response.practice_tip }}</p>
+                            <p>{{ response.recommended_instrument }}</p>
+                    </div>
                 </div>
             </div>
+
+        
         </div>
     </section>
+
+    <section class="container-fluid">
+        <h4 class="text-custom-primary ms-5"><i class="bi bi-music-player-fill"></i> Confira nosso Cat&aacute;logo: </h4>
+        <div class="row w-100 px-5 gx-5">
+            
+            {% for x in number %}
+       
+            <div class="mt-4 col-12 col-md-4 col-lg-3 ">
+                <div class="card card-custom shadow-sm border-0 card-custom-scale pointer">
+                    <img class="border-rounded" style="overflow: hidden;" src="https://picsum.photos/300/300?random={{forloop.counter}}" alt="Guitarra Acústica" />
+                    <div class="card-body ">
+                        <div class="stars text-warning">
+                        ★★★★☆ <small>(120 avaliações)</small>
+                        </div>
+                        <h5 class="card-title fw-bold mt-4">Guitarra Acústica</h5>
+                        <p class="text-success fw-semibold">R$ 1.499,00</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            {% endfor %}
+            
+        </div>
+    </section>
+{% endblock %}
+{% block script %}
+
+
+
+
 {% endblock %}
