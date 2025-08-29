@@ -92,7 +92,7 @@ class home(TemplateView):
             context['conversation'] = conversation
 
             context['messages'] = messages
-        instrumentos_view()
+        
         return render(request, self.template_name, context)
 
     def post(self, request):
